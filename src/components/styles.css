@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 80%;
+  cursor: pointer;
+}
+
+.dropzone .dropzone-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.dropzone p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.palette {
+  margin-top: 2rem;
+}
+
+.colors {
+  display: flex;
+  gap: 1rem;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.explore-palettes {
+  text-align: center;
+}
+
+.palette-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.palette-item {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
