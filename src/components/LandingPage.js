@@ -20,7 +20,7 @@ function LandingPage() {
         </section>
       </main>
       <footer>
-        <p>PalettePic - Developed by Your Name</p>
+        <p>PalettePic - Developed by Ayush Tripathi</p>
       </footer>
     </div>
   );

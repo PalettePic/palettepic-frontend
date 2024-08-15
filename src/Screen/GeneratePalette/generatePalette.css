@@ -1,0 +1,20 @@
+.left-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/029/981/203/non_2x/abstract-pastel-watercolor-background-rainbow-watercolour-pattern-abstract-water-color-texture-vector.jpg');
+  background-size: cover;
+  box-shadow: inset 0 0 500px rgba(222, 156, 236, 0.5); /* Adjust shadow as needed */
+  z-index: -1;
+}
